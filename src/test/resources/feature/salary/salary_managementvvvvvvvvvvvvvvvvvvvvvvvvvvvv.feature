@@ -1,7 +1,7 @@
-@Story_BookSearch @ST_60048458
+@ST_25 @Story_BookSearch
 Feature: Salary Management
 
-@Critical @SC_73263702
+@SC_45 @Critical
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -17,7 +17,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@Test_1 @SC_98961337
+@SC_46 @Test_1
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -38,9 +38,8 @@ Examples:
 |8|fethry|66500.0|
 
 
-@Critical @SC_89946869
+@SC_47 @Critical
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the some data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
-

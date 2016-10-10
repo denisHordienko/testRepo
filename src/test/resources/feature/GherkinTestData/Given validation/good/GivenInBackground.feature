@@ -1,4 +1,4 @@
-@Story_Good @ST_80882476
+@ST_22 @Story_Good
 Feature: Given in background
   Check Background without given keyword
 
@@ -6,15 +6,14 @@ Background:
 
 Given this story has background with given keyword
 
-@Critical @Test_1 @SC_107592691
+@SC_39 @Critical @Test_1
 Scenario: Check background
 When scenario not necessary must started from  given keyword
 Then gherkin parser must be ok with parsing
 
-@Medium @Test_2 @SC_34368857
+@SC_40 @Medium @Test_2
 Scenario: Check background
 Given scenario not necessary must started from given keyword but may
 Then gherkin parser must be ok with parsing
 And i want save this string to Git
 And GIT GIT
-
