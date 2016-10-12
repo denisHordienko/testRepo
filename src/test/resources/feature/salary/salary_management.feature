@@ -1,5 +1,5 @@
 @ST_23 @Story_BookSearch
-Feature: Salary Management
+Feature: Salary Management with custom tags
 
 @SC_41 @Critical @Test_1
 Scenario: Modify an employee's salary
@@ -37,3 +37,9 @@ Examples:
 |6|minnie|62000.0|
 |7|mickey|51000.0|
 |8|fethry|66500.0|
+
+@ST_78543534
+Scenario: scenario with custom tag
+Given this scenario
+When load it
+Then it must be saved
