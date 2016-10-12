@@ -1,5 +1,5 @@
 @ST_27
-Feature: 
+Feature: Name
 For check update from git
 
 @SC_50 @Critical
