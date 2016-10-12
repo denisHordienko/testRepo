@@ -1,4 +1,4 @@
-@ST_27 @ST_27
+@ST_27
 Feature: Name
 For check update from git
 
