@@ -2,7 +2,7 @@
 Feature: Name
 For check update from git
 
-@SC_50 @NotSoCritical
+@SC_50 @Critical
 Scenario: First scenario
 Given jira-linked story
 When it performs update
