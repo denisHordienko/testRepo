@@ -5,15 +5,17 @@ Feature: Given in background
 Background: 
 
 Given this story has background with given keyword
+And this story updated in git
 
 @SC_39 @Critical @Test_1
 Scenario: Check background
 When scenario not necessary must started from  given keyword
+And some one insert row there on git
 Then gherkin parser must be ok with parsing
+Then all must be correct updated
 
-@SC_40 @Medium @Test_2
+@SC_40 @Medium
 Scenario: Check background
 Given scenario not necessary must started from given keyword but may
-Then gherkin parser must be ok with parsing
-And i want save this string to Git
-And GIT GIT
+And GIT GIT more git update
+Then less steps
