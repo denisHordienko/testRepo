@@ -1,4 +1,4 @@
-@ST_33 @Story_BookSearch
+@ST_33 @Story_BookSearch @MajorStory
 Feature: Book search updated
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
