@@ -7,7 +7,7 @@ Given this is new background added from git
 And it must be added when story updated
 And all must be ok
 
-@SC_67 @Critical @Test_1
+@SC_6777 @Critical @Test_1
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
