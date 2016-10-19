@@ -1,2 +1,2 @@
-@ST_28
+@ST_32
 Feature: test story
