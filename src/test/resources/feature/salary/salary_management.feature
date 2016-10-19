@@ -1,6 +1,11 @@
 @ST_36 @Story_BookSearch
 Feature: Salary Management
 
+Background:
+Given this is new background added from git
+And it must be added when story updated
+And all must be ok
+
 @SC_67 @Critical @Test_1
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
@@ -17,7 +22,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@SC_68 @Test_1 @High
+@SC_688888 @Test_1 @High
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
