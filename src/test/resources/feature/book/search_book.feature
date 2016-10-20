@@ -2,7 +2,7 @@
 Feature: Book search updated
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
-Backgroung:
+Background:
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 When the customer searches for books published between 2013 and 2014
