@@ -1,5 +1,5 @@
 @ST_33 @Story_BookSearch @MajorStory
-Feature: Book search updated
+Feature:
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
 @SC_73 @Critical @SomeTag @NotCritical
