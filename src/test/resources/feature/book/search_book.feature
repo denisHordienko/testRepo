@@ -1,5 +1,5 @@
 @ST_13 @Story_BookSearch @MajorStory
-Feature: 
+Feature: Somename
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
 @SC_24 @Critical @SomeTag @NotCritical
