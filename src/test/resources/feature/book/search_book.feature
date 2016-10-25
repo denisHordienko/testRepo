@@ -1,6 +1,11 @@
 @ST_13 @Story_BookSearch @MajorStory
 Feature: Book search
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
+  
+Background:
+Given this background
+When feature updated
+Then it must be added to DB
 
 @SC_24 @Critical @SomeTag @NotCritical
 Scenario: Search books by publication year Critical
