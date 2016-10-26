@@ -34,7 +34,6 @@ Examples: feeding a suckler cow
  some valid example table desc
  some valid example table desc
  some valid example table desc
-
 |id|user|salary|
 |1|donald|60000.0|
 |2|dewie|62000.0|
