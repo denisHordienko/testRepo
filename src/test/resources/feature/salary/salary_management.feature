@@ -22,8 +22,6 @@ Given the salary management system is initialized with the following data
 
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
-
-"""@SC_36 @Critical @Test_1
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id '3' by 5%
@@ -43,4 +41,3 @@ Examples: feeding a suckler cow
 |6|minnie|62000.0|
 |7|mickey|51000.0|
 |8|fethry|66500.0|
-"""
