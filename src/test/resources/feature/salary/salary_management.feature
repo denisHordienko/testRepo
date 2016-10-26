@@ -29,7 +29,12 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with <id> should display a salary of <salary>
 
-Examples: 
+Examples: feeding a suckler cow
+ some valid example table desc
+ some valid example table desc
+ some valid example table desc
+ some valid example table desc
+
 |id|user|salary|
 |1|donald|60000.0|
 |2|dewie|62000.0|
