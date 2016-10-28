@@ -8,7 +8,7 @@ Given this background
 When feature updated
 Then it must be added to DB
 
-@SC_201 @Critical @SomeTag @NotCritical
+@SC_272 @Critical @SomeTag @NotCritical
 Scenario: Search books by publication year Critical
 Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 And another book with the title 'Some other book', written by 'Tim Tomson', published in 23 August 2014
