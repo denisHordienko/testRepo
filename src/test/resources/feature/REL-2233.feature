@@ -1,8 +1,8 @@
-@ST_157
+@ST_58
 Feature: Name
 For check update from git 
 
-@SC_426 @Critical
+@SC_430 @Critical
 Scenario: First scenario
 Given jira-linked story
 When it performs update
