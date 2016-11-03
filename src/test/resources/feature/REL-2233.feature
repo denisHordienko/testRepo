@@ -3,7 +3,7 @@ Feature: Name
 For check update from git 
 
 @SC_4344 @Critical
-Scenario: First scenario
+Scenario: First scenario update one more time
 Given jira-linked story updated
 When it performs update
 Then jira-linked story still linked to jira
