@@ -44,7 +44,8 @@ Examples: feeding a suckler cow
 |7|mickey|51000.0|
 |8|fethry|66500.0|
 
- @Critical
+
+@SC_4329 @Critical
 Scenario: First scenario
 Given jira-linked story
 When it performs update
