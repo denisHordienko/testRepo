@@ -15,10 +15,3 @@ Given jira-linked story also
 When it performs update
 Then jira-linked story still linked to jira
 And after update in git it must be still linked
-
-@SC_4346 @Critical
-Scenario: First scenario updated
-Given jira-linked story updated
-When it performs update
-Then jira-linked story still linked to jira
-And after update in git it must be still linked
