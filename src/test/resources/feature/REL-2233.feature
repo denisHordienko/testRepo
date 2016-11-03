@@ -15,3 +15,10 @@ Given jira-linked story also
 When it performs update
 Then jira-linked story still linked to jira gyufvuvh
 And after update in git it must be still linked
+
+@SC_4355 @High
+Scenario: Second scenario update
+Given jira-linked story also
+When it performs update
+Then jira-linked story still linked to jira gyufvuvh
+And after update in git it must be still linked
