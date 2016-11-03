@@ -43,3 +43,11 @@ Examples: feeding a suckler cow
 |6|minnie|62000.0|
 |7|mickey|51000.0|
 |8|fethry|66500.0|
+
+ @Critical
+Scenario: First scenario
+Given jira-linked story
+When it performs update
+Then jira-linked story still linked to jira
+And after update in git it must be still linked
+And add some row and data and one more
