@@ -6,7 +6,7 @@ For check update from git
 Scenario: First scenario
 Given jira-linked story
 When it performs update yhvhvkl
-Then jira-linked story still linked to jira nbhkcvhjck
+Then jira-linked story still linked to jira
 And after update in git it must be still linked
 
 @SC_4349 @High
