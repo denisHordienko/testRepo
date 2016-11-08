@@ -1,4 +1,4 @@
-@ST_36 @Story_Good
+@ST_3 @Story_Good
 Feature: Given in background
   Check Background without given keyword
 
@@ -7,14 +7,14 @@ Background:
 Given this story has background with given keyword
 And this story updated in git
 
-@SC_373 @Critical @Test_1
+@SC_7 @Critical @Test_1
 Scenario: Check background
 When scenario not necessary must started from  given keyword
 And some one insert row there on git
 Then gherkin parser must be ok with parsing
 Then all must be correct updated
 
-@SC_374 @Medium @Test_2
+@SC_8 @Medium @Test_2
 Scenario: Check background
 Given scenario not necessary must started from given keyword but may
 And GIT GIT more git update
