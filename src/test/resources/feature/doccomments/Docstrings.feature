@@ -2,6 +2,7 @@
 Feature: DocString variations
 
 @SC_77
+Scenario: minimalistic
     Given a simple DocString
       """
       first line (no indent)
