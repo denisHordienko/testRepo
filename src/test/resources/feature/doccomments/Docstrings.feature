@@ -1,7 +1,7 @@
-@ST_10
+@ST_312
 Feature: DocString variations
 
-@SC_47
+@SC_1120
 Scenario: minimalistic
 Given a simple DocString
 """
@@ -42,4 +42,3 @@ first line
 """
 third line
 ```
-
