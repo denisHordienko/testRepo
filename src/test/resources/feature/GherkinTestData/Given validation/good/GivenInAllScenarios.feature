@@ -6,7 +6,12 @@ Background:
 
 When in this story background hasn't given keyword
 
-@SC_1133 @Medium @Test_2
+@SC_1141 @Critical @Test_1
+Scenario: Check scenario
+Given this scenario must started from given keyword
+Then gherkin parser must be ok with parsing
+
+@SC_1140 @Medium @Test_2
 Scenario Outline: Check another scenario
 Given this scenario must started from given keyword
 Then gherkin parser must be ok with parsing <two> <three> <one>
@@ -14,9 +19,3 @@ Then gherkin parser must be ok with parsing <two> <three> <one>
 Examples: 
 |one|two|three|
 ||||
-
-
-@SC_1132 @Critical @Test_1
-Scenario: Check scenario
-Given this scenario must started from given keyword
-Then gherkin parser must be ok with parsing
