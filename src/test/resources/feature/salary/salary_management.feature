@@ -11,6 +11,7 @@ And all must be ok
 Scenario: 
 Given jira-linked story
 When it performs update
+#comment
 Then jira-linked story still linked to jira
 And after update in git it must be still linked
 And add some row and data and one more
