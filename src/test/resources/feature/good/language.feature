@@ -1,6 +1,6 @@
-#language:en
-
+@ST_438
 Feature: Explicit language specification
 
-  Scenario: minimalistic
-    Given the minimalism
+@SC_1457
+Scenario: minimalistic
+Given the minimalism
