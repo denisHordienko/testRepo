@@ -1,4 +1,4 @@
-@ST_13 @Story_BookSearch
+@ST_315 @Story_BookSearch
 Feature: Salary Management
 
 Background: 
@@ -7,7 +7,7 @@ Given this is new background added from git
 And it must be added when story updated
 And all must be ok
 
-@SC_55 @Critical @Test_1
+@SC_1146 @Critical @Test_1
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -23,8 +23,9 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@SC_56
+@SC_1145
 Scenario Outline: Modify an employee's salary
+#comment
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id '3' by 5%
 Then the payroll for the employee with <id> should display a salary of <salary>
@@ -45,7 +46,8 @@ Examples: feeding a suckler cow
 |8|fethry|66500.0|
 
 
-@SC_57 @Critical
+@SC_1144 @Critical
+Scenario: 
 Given jira-linked story
 When it performs update
 Then jira-linked story still linked to jira
