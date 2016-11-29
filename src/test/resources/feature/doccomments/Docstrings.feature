@@ -1,7 +1,7 @@
-@ST_312
+@ST_9
 Feature: DocString variations
 
-@SC_1412
+@SC_20
 Scenario: minimalistic
 Given a simple DocString
 """

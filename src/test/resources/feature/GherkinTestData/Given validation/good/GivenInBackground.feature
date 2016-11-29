@@ -1,4 +1,4 @@
-@ST_314 @Story_Good
+@ST_11 @Story_Good
 Feature: Given in background
   Check Background without given keyword
 
@@ -7,13 +7,13 @@ Background:
 Given this story has background with given keyword
 And this story updated in git
 
-@SC_1416 @Medium @Test_2
+@SC_25 @Medium @Test_2
 Scenario: Check background
 Given scenario not necessary must started from given keyword but may
 And GIT GIT more git update
 Then less steps
 
-@SC_1415 @Critical @Test_1
+@SC_26 @Critical @Test_1
 Scenario: Check background
 When scenario not necessary must started from  given keyword
 And some one insert row there on git
