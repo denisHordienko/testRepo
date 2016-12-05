@@ -22,9 +22,3 @@ And one more step
 Scenario: First scenario
 Given this scenario
 Then add it to Jira
-
-@SC_93 @Some
-Scenario: rel scenario
-Given create this scenario
-Then thre are no duplicates when sync
-And one more step
