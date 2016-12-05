@@ -47,7 +47,7 @@ Examples: feeding a suckler cow
 
 
 @SC_83 @Critical
-Scenario Outline: 
+Scenario: 
 Given jira-linked story
 When it performs update
 Then jira-linked story still linked to jira
