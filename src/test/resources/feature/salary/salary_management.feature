@@ -24,7 +24,7 @@ When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
 @SC_82
-Scenario: Modify an employee's salary
+Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 #comment
 When the boss increases the salary for the <user> with id '3' by 5%
@@ -47,7 +47,7 @@ Examples: feeding a suckler cow
 
 
 @SC_83 @Critical
-Scenario: 
+Scenario Outline: 
 Given jira-linked story
 When it performs update
 Then jira-linked story still linked to jira
