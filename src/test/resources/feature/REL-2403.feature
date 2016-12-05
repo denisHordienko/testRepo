@@ -5,6 +5,7 @@ Feature:
 Scenario: rel scenario
 Given create this scenario
 Then thre are no duplicates when sync
+And one more step
 
 @SC_88 @First @Given-this-scenario
 Scenario: First scenario
