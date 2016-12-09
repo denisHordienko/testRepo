@@ -10,4 +10,4 @@ And one more step
 @SC_90 @First @Given-this-scenario
 Scenario: First scenario
 Given this scenario
-Then add it to Jira
+Then add it to Jira and updated in git
