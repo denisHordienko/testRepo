@@ -1,4 +1,6 @@
+@ST_58
 Feature: Minimal
 
-  Scenario: minimalistic
-    Given the minimalism
+@SC_141
+Scenario: minimalistic
+Given the minimalism

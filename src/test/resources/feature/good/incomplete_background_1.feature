@@ -1,6 +1,9 @@
+@ST_50
 Feature: Incomplete backgrounds, Part 1
 
-  Background: no steps
+Background: no steps
 
-  Scenario: still pickles up
-    * a step
+
+@SC_129
+Scenario: still pickles up
+* a step

@@ -1,7 +1,8 @@
-#language:no
-Egenskap: i18n support
+@ST_49
+Feature: i18n support
 
-  Scenario: Parsing many languages
-    Gitt Gherkin supports many languages
-    Når Norwegian keywords are parsed
-    Så they should be recognized
+@SC_127
+Scenario: Parsing many languages
+Gitt Gherkin supports many languages
+Når Norwegian keywords are parsed
+Så they should be recognized
