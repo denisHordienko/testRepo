@@ -4,7 +4,8 @@ Feature: Given in all scenarios
 
 Background: 
 
-When in this story background hasn't given keyword
+Given no mater
+When in this story background hasn't given keyword dsggds
 
 @SC_120508 @Critical @Test_1
 Scenario: Check scenario
