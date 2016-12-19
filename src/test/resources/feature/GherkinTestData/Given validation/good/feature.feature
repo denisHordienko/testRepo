@@ -5,3 +5,8 @@ Feature: new feature
 Scenario: name
 Given one
 Then two
+
+@SC_157
+Scenario: minimalistic
+Given minimalistic
+Then minimalistic
