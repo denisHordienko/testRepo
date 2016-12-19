@@ -9,4 +9,4 @@ Then two
 @SC_157
 Scenario: minimalistic
 Given minimalistic
-Then minimalistic
+Then minimalistic and
