@@ -26,3 +26,4 @@ first line
 second line
 """
 And a DocString with normal separator inside
+And one more step
