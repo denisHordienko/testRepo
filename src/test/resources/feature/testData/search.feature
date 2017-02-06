@@ -1,2 +1,2 @@
-@ST_72
+@ST_5
 Feature: Book search
