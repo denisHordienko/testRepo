@@ -2,7 +2,7 @@
 Feature: DocString variations
 Feature which leads to this issue 
 
-@SC_5
+@SC_6
 Scenario: 
 Given a simple DocString
 """
@@ -14,7 +14,7 @@ Given a DocString with content type
 """xml
 <foo>
 <bar />
-</foo>
+</foo> and
 """
 And a DocString with wrong indentation
 """
@@ -27,7 +27,7 @@ And a DocString with escaped separator inside
 first line
 """
 
-@SC_6
+@SC_5
 Scenario: 
 Given a simple DocString
 """
