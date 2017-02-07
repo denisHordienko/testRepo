@@ -1,7 +1,7 @@
-@ST_4
+@ST_53050
 Feature: Test name
 
-@SC_7
+@SC_200891
 Scenario: minimal
 Given test
 Then test
