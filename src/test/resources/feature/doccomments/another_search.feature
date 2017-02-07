@@ -8,5 +8,3 @@ When 10 books should have been found
 And the salary management system is initialized with the following data
 #comment line
 And the customer searches for books published between 50 and 100
-|some|some|
-|1|1|
