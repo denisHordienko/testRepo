@@ -10,19 +10,13 @@ first line (no indent)
 second line (indented with two spaces)
 third line was empty
 """
-"""
 """xml
 <foo>
 <bar />
 </foo>
 """
-some
-"""
-wrongly indented line
-"""
-"""
-"""
 And a DocString with escaped separator inside
+"""
 ```
 first line
 """
