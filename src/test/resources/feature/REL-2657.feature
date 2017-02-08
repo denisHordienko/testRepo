@@ -78,5 +78,5 @@ first line
 """
 And a DocString with alternative separator
 |data|data|
-#comment
 |1|2|
+#comment
