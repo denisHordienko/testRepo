@@ -2,6 +2,36 @@
 Feature: DocString variations
 Feature which leads to this issue 
 
+@SC_10
+Scenario: 
+Given a simple DocString
+"""
+first line (no indent)
+second line (indented with two spaces)
+third line was empty
+"""
+And a DocString with escaped separator inside
+"""xml
+<foo>
+<bar />
+</foo>
+"""
+Given a DocString with content type
+"""
+wrongly indented line
+"""
+And a DocString with wrong indentation
+"""
+And a DocString with escaped separator inside
+```
+first line
+"""
+And a DocString with alternative separator
+|data|data|
+|1|2|
+#comment
+|1|1|
+
 @SC_8
 Scenario: 
 Given a simple DocString
@@ -51,32 +81,3 @@ And a DocString with escaped separator inside
 ```
 first line
 """
-
-@SC_10
-Scenario: 
-Given a simple DocString
-"""
-first line (no indent)
-second line (indented with two spaces)
-third line was empty
-"""
-And a DocString with escaped separator inside
-"""xml
-<foo>
-<bar />
-</foo>
-"""
-Given a DocString with content type
-"""
-wrongly indented line
-"""
-And a DocString with wrong indentation
-"""
-And a DocString with escaped separator inside
-```
-first line
-"""
-And a DocString with alternative separator
-|data|data|
-|1|2|
-#comment
