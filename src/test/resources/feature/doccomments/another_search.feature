@@ -1,7 +1,7 @@
-@ST_53048
+@ST_7
 Feature: another search
 
-@SC_200888
+@SC_11
 Scenario: automated
 Given the boss increases the salary for the "Denis" with id "1" by 5%
 When 10 books should have been found

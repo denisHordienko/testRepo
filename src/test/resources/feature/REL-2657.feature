@@ -1,8 +1,8 @@
-@ST_53047
+@ST_6
 Feature: DocString variations
 Feature which leads to this issue 
 
-@SC_200885
+@SC_8
 Scenario: 
 Given a simple DocString
 """
@@ -27,7 +27,7 @@ And a DocString with escaped separator inside
 first line
 """
 
-@SC_200886
+@SC_9
 Scenario: 
 Given a simple DocString
 """
@@ -52,7 +52,7 @@ And a DocString with escaped separator inside
 first line
 """
 
-@SC_200887
+@SC_10
 Scenario: 
 Given a simple DocString
 """
