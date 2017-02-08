@@ -7,6 +7,7 @@ Scenario:
 Given a simple DocString
 """
 comment
+And
 """
 Given a DocString with content type
 And a DocString with wrong indentation
