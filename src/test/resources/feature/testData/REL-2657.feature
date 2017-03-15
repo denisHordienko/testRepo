@@ -1,8 +1,8 @@
-@ST_12
+@ST_70376
 Feature: DocString variations
 Feature which leads to this issue 
 
-@SC_16
+@SC_264550
 Scenario: 
 Given a simple DocString
 """
@@ -12,7 +12,7 @@ And
 Given a DocString with content type
 And a DocString with wrong indentation
 |and|and|
-| data|data|
+|data|data|
 And a DocString with alternative separator
 |1|1|
-| 2|2|
+|2|2|
