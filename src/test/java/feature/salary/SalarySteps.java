@@ -38,7 +38,7 @@ public class SalarySteps {
 		//TODO: add Table
 	}
 	
-	@When("^a simple data table$")
+	@When("a simple data table")
 	public void the_date_table(int arg1) throws Throwable {
 		//TODO: add Table
 	}
